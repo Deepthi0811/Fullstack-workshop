@@ -1,0 +1,64 @@
+:root{
+    --primary: #3DCFD3;
+    --dark:#161616;
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #f2f2f2;
+    --secondary: #070606;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--dark);
+    height: 800px;
+    
+    
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+    word-spacing: 25px;
+    
+    
+    
+}
+.right button{
+
+    background-color: var(--primary);
+    width: 10rem;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    font-size: larger;
+    text-transform: uppercase;
+    
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 30px;
+    margin-top: 25px;
+}
+
+
